@@ -1,0 +1,15 @@
+{
+  "proxy": {
+    "host": "0.0.0.0",
+    "port": 8080,
+    "buffer_size": 4096
+  },
+  "capture": {
+    "pcap_directory": ".",
+    "pcap_prefix": "mitm_capture"
+  },
+  "logging": {
+    "verbose": true,
+    "show_timestamps": true
+  }
+}
